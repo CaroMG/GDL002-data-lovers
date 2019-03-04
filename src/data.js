@@ -18,12 +18,6 @@ const filPokeType = (dataPokemon,condition) => {
     return items;     
 };
 
-//Fucion para order. Primer intento.
-//const orderPoke = () => {
-  //let itemsPoke =
-//}
-
-
 
 //Funcion para iterar con for y buscar pokemon. 
 /*const findPoke = () => {

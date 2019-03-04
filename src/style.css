@@ -107,7 +107,6 @@ div.cambiar
 .cambiar:hover
 {
   background: grey;
-  border: red;
   /* color:#494c46; */
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
