@@ -46,14 +46,13 @@ body {
 };
 
 .buttonHelp{
-      flex-direction: flex-end;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      align-items:flex-end ;
-      border-collapse: collapse;
-      flex-wrap: wrap;
-      margin-top: 3%;
-      margin-left: 30%;
+    flex-direction: flex-end;
+    flex-wrap: wrap;
+    align-items:flex-end ;
+    border-collapse: collapse;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 30%;
 }
 
 .typesOfPokemons{

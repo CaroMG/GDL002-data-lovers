@@ -9,18 +9,20 @@
 </head>
 
 <body>
+    <!-- <header>
+        <div class="col">
+          <div class="producto prod-first">
+            <img src="images/botonayuda.png" class="bottonHelp" width="110" />
+            <div class="mask">
+              <h2>¡Bienvenida a PocketMon!</h2>
+              <p>En este sitio podrás encontrar la información de cualquier pokémon de la región de Kanto.</p>
+              <p>1. Sólo da clic en el botón Pokelist y selecciona el tipo de pokémon que desees conocer.</p>
+            </div>
+          </div>
+        </div>
+      </header>  -->
 
-  <div class="col">
-    <div class="producto prod-first">
-      <img src="images/botonayuda.png" width="110" />
-      <div class="mask">
-        <h2>¡Bienvenida a PocketMon!</h2>
-        <p>En este sitio podrás encontrar la información de cualquier pokémon de la región de Kanto.</p>
-        <p>1. Sólo da clic en el botón Pokelist y selecciona el tipo de pokémon que desees conocer.
-      </div>
-    </div>
-  </div>
-
+  
   <div id="card" class="conteiner" style="display:block">
     <button id="findPkemon" class="button1"><img src="images/botonbuscar.jpg" width="110" height="50"></button>
     <button id="pokelist" class="button1"><img src="images/botonpokelist.png" width="110" height="50"></button>
@@ -55,8 +57,15 @@
     <button value="Ice" class="typeButton"><img src="images/boton hielo.jpg" width="80"></button>
     <button id="start" class="button1"><img src="images/botoninicio.png" width="140" height="80"></button>
 
+    <div id="pokemonOrder">
+      <input type="radio" id="order-A" name="order">
+      <input type="radio" id="order-B" name="order">
+    </div>
+
+
     <!-- sección imgs -->
-    <div id="listaPoke" class="listaPoke"></div>
+    <div id="listaPoke" class="listaPoke">
+    </div>
   </section>
   </div>
 
